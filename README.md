@@ -16,7 +16,7 @@
 
 ## **Flow Chart**
 <p align="center">
-<img src="Flow Chart self cashier project - White BG (Use This).png" alt="revenue-profit" width="400" height="300">
+<img src="Flow Chart self cashier project - White BG (Use This).png" alt="flow_chart" width="800" height="600">
 </p>
 Gambar 1. Flow Chart
 
@@ -59,7 +59,7 @@ Customer ingin menambahkan dua item baru menggunakan method add_item() [*pada pr
 
 Hasil: 
 <p align="center">
-<img src="/hasil_test_case/test_1.png" alt="revenue-profit" width="400" height="300">
+<img src="/hasil_test_case/test_1.png" alt="test_1">
 </p>
 
 2. Test 2
@@ -67,7 +67,7 @@ Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditamb
  
 Hasil: 
 <p align="center">
-<img src="/hasil_test_case/test_2.png" alt="revenue-profit" width="400" height="300">
+<img src="/hasil_test_case/test_2.png" alt="test_2">
 </p>
 
 3. Test 3
@@ -75,7 +75,7 @@ Ternyata setelah dipikir-pikir Customer salah memasukkan item yang ingin dibelan
 
 Hasil: 
 <p align="center">
-<img src="/hasil_test_case/test_3.png" alt="revenue-profit" width="400" height="300">
+<img src="/hasil_test_case/test_3.png" alt="test_3" >
 </p>
 
 4. Test 4
@@ -83,10 +83,10 @@ Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus di
 
 Hasil: 
 <p align="center">
-<img src="/hasil_test_case/test_41.png" alt="revenue-profit" width="400" height="300">
+<img src="/hasil_test_case/test_41.png" alt="test_41">
 </p>
 <p align="center">
-<img src="/hasil_test_case/test_42.png" alt="revenue-profit" width="400" height="300">
+<img src="/hasil_test_case/test_42.png" alt="test_42">
 </p>
 
 
