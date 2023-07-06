@@ -16,7 +16,7 @@
 
 ## **Flow Chart**
 <p align="center">
-<img src="Flow Chart self cashier project - White BG (Use This).png" alt="flow_chart" width="800" height="600">
+<img src="Flow Chart self cashier project - White BG (Use This).png" alt="flow_chart" >
 </p>
 Gambar 1. Flow Chart
 
