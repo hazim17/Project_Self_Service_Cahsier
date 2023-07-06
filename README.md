@@ -15,7 +15,9 @@
 
 
 ## **Flow Chart**
-*Insert flow chart picture*
+<p align="center">
+<img src="Flow Chart self cashier project - White BG (Use This).png" alt="revenue-profit" width="400" height="300">
+</p>
 Gambar 1. Flow Chart
 
 ### Penjelasan Flow Chart:
@@ -55,22 +57,37 @@ Customer ingin menambahkan dua item baru menggunakan method add_item() [*pada pr
 - Nama item: Ayam Goreng, Qty: 2 dan harga per item: 20000
 - Nama item: Pasta Gigi, Qty: 3 dan harga per item: 15000
 
-Hasil: *Insert picture*
+Hasil: 
+<p align="center">
+<img src="/hasil_test_case/test_1.png" alt="revenue-profit" width="400" height="300">
+</p>
 
 2. Test 2
 Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan. Maka customer menggunakan method delete_item() [*pada projek ini yaitu 'delete_row_item'*] untuk menghapus item. Item yang ingin dihapus adalah Pasta gigi.
-
-Hasil: *Insert picture*
+ 
+Hasil: 
+<p align="center">
+<img src="/hasil_test_case/test_2.png" alt="revenue-profit" width="400" height="300">
+</p>
 
 3. Test 3
 Ternyata setelah dipikir-pikir Customer salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu-sat, maka Customer cukup menggunakan method reset_transaction() [*pada projek ini yaitu 'reset'*] untuk menghapus semua item yang sudah ditambahkan.
 
-Hasil: *Insert picture*
+Hasil: 
+<p align="center">
+<img src="/hasil_test_case/test_3.png" alt="revenue-profit" width="400" height="300">
+</p>
 
 4. Test 4
 Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). Sebelum mengeluarkan output total belanja akan menampilkan item-item yang dibeli.
 
-Hasil: *Insert picture*
+Hasil: 
+<p align="center">
+<img src="/hasil_test_case/test_41.png" alt="revenue-profit" width="400" height="300">
+</p>
+<p align="center">
+<img src="/hasil_test_case/test_42.png" alt="revenue-profit" width="400" height="300">
+</p>
 
 
 ## **This Repository Organzation**
@@ -88,5 +105,6 @@ _
 ```
 
 Muhammad Hazim M
+
 Pacmann - Analystics & Data Science
 Batch 14
