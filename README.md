@@ -21,11 +21,12 @@
 Gambar 1. Flow Chart
 
 ### Penjelasan Flow Chart:
-- Dalam project ini di asumsikan nama supermarket nya adalah CarreSix (C6)
+Dalam project ini di asumsikan nama supermarket nya adalah CarreSix (C6)
 1. Customer ingin berbelanja di CarreSix. Sehingga customer ketik Transaction() [customer membuat object]. object tersebut bisa langsung di tulis atau dimasukkan dalam variabel
 2. Customer menjawab apakah ingin bertransaksi. Jika ya/yes, maka akan eksekusi ke selanjutnya. Jika mengetik yang lain maka program selesai.
 3. Transaction id secara otomatis terbentuk. Kemudian pilihan yang customer bisa pilih keluar:
 Berikutnya:
+```
  - Ketik 'add_new_item': untuk memasukkan nama, quantitas dan harga produk
  - Ketik 'update_nama': untuk update nama produk, jika ada kesalahan
  - Ketik 'update_qty': untuk update quantitas produk, jika ada kesalahan
@@ -35,8 +36,10 @@ Berikutnya:
  - ketik 'check_order': untuk checkout
  - ketik 'total_price': untuk melihat harga dan membayar
  - ketik 'exit': untuk keluar tanpa menyimpan apapun
+```
 4. kemudian akan muncul kotak untuk menginput method yang akan dilakukan **(kotak inputan)** dengan tulisan "Masukkan Command"
 5. customer memasukkan method yang ingin dilakukan.
+```
  - 'add_new_item': customer memasukkan nama, harga dan quantity produk yang akan dibeli
  - 'update_nama': customer memasukkan nama yang dari produk yang ingin diubah dan masukkan nama baru
  - 'update_qty': customer memasukkan nama dari prouk yang quantity nya ingin diubah, lalu memasukkan quantity baru
@@ -46,6 +49,7 @@ Berikutnya:
  - 'check_order': untuk checkout brang yang dipilih apakah sudah sesuai nama dan harganya dengan database yang ada
  - 'total_price': untuk melihat harga dan membayar
  - 'exit': untuk keluar tanpa menyimpan apapun
+```
 Secara umum, semua metode di atas (kecuali total_price dan exit) akan kembali ke kotak inputan "Masukkan Command" jika telah selesai memasukkan nilai pada command tersebut.
 6. Jika memilih 'total_price' atau 'exit', maka program akan berhenti dan mengeluarkan output yang sesuai. Jika 'total_price' akan mengeluarkan harga yang harus dibayarkan. Jika 'exit' tidak mengeluarkan apapun.
 
