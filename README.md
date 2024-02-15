@@ -132,7 +132,7 @@ _
 └── README.md                  : Readme File
 ```
 
-Shoutout to Grammarly for correcting the grammar.
+<!-- Shoutout to Grammarly for correcting the grammar.  -->
 
 <!-- Instruction Python Project https://docs.google.com/document/d/1TyWrKr4xPFJu3IFwt4vUW5gLXgbNRcQjSYkpGVc376I/preview#heading=h.a7e393npqdkt
  -->
