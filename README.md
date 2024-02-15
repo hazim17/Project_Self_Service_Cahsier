@@ -14,8 +14,9 @@ Create CRUD programs in a modular system with a clean code and has trial and err
 <p align="center">
 <img src="Images/Flowchart self cashier project.jpg" alt="flow_chart" >
 </p>
+<p align="center">
 Image 1. Flowchart
-
+</p>
 
 ### Flowchart Explanation:
 Flowchart Explanation.
@@ -23,14 +24,18 @@ Flowchart Explanation.
 <p align="center">
 <img src="/Images/Import module.png" alt="import_module" >
 </p>
+<p align="center">
 Image 2. Import module
+</p>
 
 2. Create an Object from class Transaction. When an object is created, an id transaction is automatically generated. 
 Check your id transaction
 <p align="center">
 <img src="/Images/Check ID.png" alt="check_id" >
 </p>
+<p align="center">
 Image 3. Check ID transaction
+</p>
 
 3. The Customer can choose a method according to the action they want to take.
     The methods in Transaction class are:
@@ -121,7 +126,7 @@ Result:
 ## **This Repository Organization**
 ```
 _
- |── Images                             : Contain all the image using in README.md
+|── Images                             : Contain all the image using in README.md
 ├── main_demonstrasi.ipynb : This file is used to run the module transaction and Test Case. 
 ├── module_transaction.py    : A module that contain class Transaction. In that class there are many methods to do the transaction like add, update and delete an item.
 └── README.md                  : Readme File
