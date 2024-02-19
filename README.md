@@ -1,14 +1,14 @@
 # Project Self Service Cashier
 
 ## **Background Project**
-In this project, I created a self-service cashier system for a supermarket so customers can enter, update and delete the items purchased, the quantity and the price by themself.
+In this project, I created a self-service cashier system for a supermarket so customers can enter, update and delete the items purchased, the quantity and the price by themself. 
 
 ## **Goals**
 Create a CRUD self-service cashier program according to the requested requirements (create an ID transaction, add items, update items, delete items, reset transaction, check order and calculate total shopping price)
 
 ## **Objectives**
-Create a flowchart for the program. 
-Create CRUD programs in a modular system with a clean code and has trial and error when using branching.
+- Create a flowchart for the program. 
+- Create CRUD programs in a modular system with a clean code and has trial and error when using branching.
 
 ## **Flowchart**
 <p align="center">
@@ -29,7 +29,6 @@ Image 2. Import module
 </p>
 
 2. Create an Object from class Transaction. When an object is created, an id transaction is automatically generated. 
-Check your id transaction
 <p align="center">
 <img src="/Images/Check ID.png" alt="check_id" >
 </p>
@@ -39,17 +38,17 @@ Image 3. Check ID transaction
 
 3. The Customer can choose a method according to the action they want to take.
     The methods in Transaction class are:
-    """
-        - __init__           : it's an instance method for initializing the newly created object.
-        - add_item         : Add new item name, price and quantity.
-        - update_name  : Update the item name
-        - update_price   : Update the item price
-        - update_qty      : Update the item quantity
-        - delete_item     : Delete one item (including name, price and quantity)
-        - reset                : Reset transaction, delete all history input transaction
-        - check_order    : Check if there all the data is correct, based on database that we have (database_product)
-        - total_price       : Give total all the item price, including discount.
-    """
+    ```
+    - __init__     : it's an instance method for initializing the newly created object.
+    - add_item     : Add new item name, price and quantity.
+    - update_name  : Update the item name
+    - update_price : Update the item price
+    - update_qty   : Update the item quantity
+    - delete_item  : Delete one item (including name, price and quantity)
+    - reset        : Reset transaction, delete all history input transaction
+    - check_order  : Check if there all the data is correct, based on database that we have (database_product)
+    - total_price  : Give total all the item price, including discount.
+    ```
 
 4. Then the output of each method varies, it could be messages or a data table. The customer can call any method in the Transaction class as many times as they want.
 
@@ -126,10 +125,10 @@ Result:
 ## **This Repository Organization**
 ```
 _
-|── Images                             : Contain all the image using in README.md
+|── Images                 : Contain all the image using in README.md
 ├── main_demonstrasi.ipynb : This file is used to run the module transaction and Test Case. 
-├── module_transaction.py    : A module that contain class Transaction. In that class there are many methods to do the transaction like add, update and delete an item.
-└── README.md                  : Readme File
+├── module_transaction.py  : A module that contain class Transaction. In that class there are many methods to do the transaction like add, update and delete an item.
+└── README.md              : Readme File
 ```
 
 <!-- Shoutout to Grammarly for correcting the grammar.  -->
