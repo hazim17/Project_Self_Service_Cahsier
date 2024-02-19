@@ -1,10 +1,12 @@
-# Project Self Service Cashier
+# Project Self-Service Cashier
 
 ## **Background Project**
-In this project, I created a self-service cashier system for a supermarket so customers can enter, update and delete the items purchased, the quantity and the price by themself. 
+In this project, I created a self-service cashier system for a supermarket so customers can enter, update, and delete the item's name, quantity, and price by themself.
+									
+To do that, I created a module with a class named Transaction. Inside that class, there are modules for adding the item, updating the item, deleting the item, and resetting the transaction.
 
 ## **Goals**
-Create a CRUD self-service cashier program according to the requested requirements (create an ID transaction, add items, update items, delete items, reset transaction, check order and calculate total shopping price)
+Create a CRUD self-service cashier program according to the requested requirements (create an ID transaction, add items, update items, delete items, reset transaction, check order, and calculate total shopping price)
 
 ## **Objectives**
 - Create a flowchart for the program. 
